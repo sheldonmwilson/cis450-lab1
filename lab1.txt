@@ -1,0 +1,7 @@
+1.
+  a. The binary value stored for 22/7 is 11.0010010010010010010010
+  b. The binary value stored for 3.14159265 is 11.0010010000111111011011, which is as accurate as M_PI
+  c. M_PI as a double is accurate to 15 decimal places
+  d. The binary value stored for 355/113 is 11.0010010000111111011100 (using fdump), and matches pi to
+     6 decimal places.
+2. ..
