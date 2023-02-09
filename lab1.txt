@@ -1,7 +1,33 @@
 1.
   a. The binary value stored for 22/7 is 11.0010010010010010010010
+
   b. The binary value stored for 3.14159265 is 11.0010010000111111011011, which is as accurate as M_PI
+
   c. M_PI as a double is accurate to 15 decimal places
+
   d. The binary value stored for 355/113 is 11.0010010000111111011100 (using fdump), and matches pi to
      6 decimal places.
-2. ..
+
+2.
+  a. Smallest positive normalized float is 1.1754943508 x 10 ^ -38
+
+  b. Smallest positive denormalized float is 1.4012984643 x 10 ^ -45
+
+  c. Smallest positive normalized double is 2.22507385850720138309 x 10 ^ -308
+
+  d. Smallest negative normalized double is -1.79769313486231570815 x 10 ^ 308
+
+3.
+  a. 7.75 is stored as 111.11 in base 2, which can be stored exactly with float
+
+  b. 0.4 is stored as 1.001100... and can't be represented exactly as a double.
+
+  c. 0x3F4CCCCC is approximately 0.8
+
+  d. 16,777,215 (2^24 - 1) is the largest odd float value represented exactly. The next odd would be stored as 16,777,216
+
+  e. The largest even integer in float is the max value of float, 3.4028234664 x 10 ^ 38
+
+  f. The largest odd integer for double is (2^53 - 1), which is 9,007,199,254,740,991
+
+
